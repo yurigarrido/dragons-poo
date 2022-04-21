@@ -9,7 +9,7 @@ class Ranger extends Archetypes {
     return this._energyType;
   }
 
-  static createdArchetypeInstances():number {
+  static createdArchetypeInstances(): number { 
     const countArchetypesInstaces = this.archetypesInstaces + 1;
     this.archetypesInstaces = countArchetypesInstaces;
     return this.archetypesInstaces;
